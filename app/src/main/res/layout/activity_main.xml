@@ -2,18 +2,34 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/chore_wheel_background"
+    android:background="@drawable/chore_wheel_background_v2"
     tools:context=".MainActivity">
 
-    <TextView
+    <ImageView
+        android:id="@+id/spinningWheel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chore_wheelv2" />
+
+    <ImageView
+        android:id="@+id/ticker"
+        android:layout_width="52dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="332dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spinningWheel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/chore_wheel_ticker" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
