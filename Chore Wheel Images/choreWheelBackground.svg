@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="548"
+   height="881"
+   viewBox="0 0 144.99166 233.09792"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="choreWheelBackground.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient842">
+      <stop
+         style="stop-color:#555555;stop-opacity:1;"
+         offset="0"
+         id="stop838" />
+      <stop
+         style="stop-color:#555555;stop-opacity:0;"
+         offset="1"
+         id="stop840" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient842"
+       id="linearGradient844"
+       x1="235.10118"
+       y1="-6.9169664"
+       x2="236.99104"
+       y2="223.27054"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-4.5923734e-6)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="438.02175"
+     inkscape:cy="453.24748"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="974"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="BaseSquare"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-63.902051)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4534"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:'Britannic Bold';-inkscape-font-specification:'Britannic Bold, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion4536"
+         style="font-size:48px"><rect
+           id="rect4538"
+           width="731.42859"
+           height="180"
+           x="31.428572"
+           y="33.948257"
+           style="font-size:48px" /></flowRegion><flowPara
+         id="flowPara4540" /></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="ChooseChoresBanner">
+    <g
+       id="g854"
+       inkscape:export-xdpi="410.98599"
+       inkscape:export-ydpi="410.98599">
+      <rect
+         ry="1.697556"
+         rx="0.036289986"
+         y="-0.11339366"
+         x="-1.8091703e-06"
+         height="233.58928"
+         width="145.52083"
+         id="rect4550"
+         style="fill:url(#linearGradient844);fill-opacity:1;fill-rule:evenodd;stroke-width:0.26458332" />
+      <g
+         style="fill:#ffcc00"
+         transform="matrix(1.1804406,-0.01311123,0.02713534,1.4304101,-15.679418,-6.8801958)"
+         id="g4582">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.52499962px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           id="text4548"><textPath
+             xlink:href="#path4562"
+             id="textPath4564"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.52499962px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffcc00;stroke-width:0.26458332"
+   id="tspan4546">The Wheel of Chores</tspan></textPath></text>
+        <path
+           style="opacity:0;fill:#ffcc00;stroke:#000000;stroke-width:0.32492191px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 29.927492,39.22368 c 26.854759,-22.299978 57.01381,-25.312835 92.455648,2.509894 v 0"
+           id="path4562"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccc" />
+      </g>
+    </g>
+  </g>
+</svg>
