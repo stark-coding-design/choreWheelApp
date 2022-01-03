@@ -2,17 +2,15 @@ package com.stark.satos.chorewheelapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
-
 import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.RotateAnimation;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
-
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
@@ -41,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
         layout = findViewById(R.id.constraint_layout);
         wheel = findViewById(R.id.spinningWheel);
 
-
         layout.setOnTouchListener(new OnSwipeTouchListener(MainActivity.this) {
             @Override
             public void onSwipeLeft() {
@@ -59,9 +56,50 @@ public class MainActivity extends AppCompatActivity {
                     isSpinning = true;
                 }
             }
+            @Override
+            public void onSwipeUp(){
+                super.onSwipeUp();
+                if(!isSpinning){
+                    spin();
+                    isSpinning = true;
+                }
+            }
+            @Override
+            public void onSwipeDown(){
+                super.onSwipeDown();
+                if(!isSpinning){
+                    spin();
+                    isSpinning = true;
+                }
+            }
+            @Override
+            public void onCLick(){
+                super.onClick();
+                if(!isSpinning){
+                    spin();
+                    isSpinning = true;
+                }
+            }
+            @Override
+            public void onDoubleClick(){
+                super.onDoubleClick();
+                if(!isSpinning){
+                    spin();
+                    isSpinning = true;
+                }
+            }
+
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                if(!isSpinning){
+                    spin();
+                    isSpinning = true;
+                }
+                return super.onTouch(view, motionEvent);
+
+            }
         });
         getDegreeeForSectors();
-
     }
 
     private void getDegreeeForSectors() {
