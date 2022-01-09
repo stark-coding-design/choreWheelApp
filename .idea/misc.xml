@@ -4,7 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Satos/AndroidStudioProjects/ChoreWheelApplication/app/src/main/res/drawable/ic_chorewheel.xml" value="0.17708333333333334" />
-        <entry key="..\:/Users/Satos/AndroidStudioProjects/ChoreWheelApplication/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Satos/AndroidStudioProjects/ChoreWheelApplication/app/src/main/res/layout-land/activity_main.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/Satos/AndroidStudioProjects/ChoreWheelApplication/app/src/main/res/layout-port/activity_main.xml" value="0.117578125" />
+        <entry key="..\:/Users/Satos/AndroidStudioProjects/ChoreWheelApplication/app/src/main/res/layout-sw320dp-land/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Satos/AndroidStudioProjects/ChoreWheelApplication/app/src/main/res/layout-sw320dp/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Satos/AndroidStudioProjects/ChoreWheelApplication/app/src/main/res/layout-sw480dp-land/activity_main.xml" value="0.6666666666666666" />
+        <entry key="..\:/Users/Satos/AndroidStudioProjects/ChoreWheelApplication/app/src/main/res/layout-sw480dp/activity_main.xml" value="0.8333333333333334" />
+        <entry key="..\:/Users/Satos/AndroidStudioProjects/ChoreWheelApplication/app/src/main/res/layout-sw600dp-land/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Satos/AndroidStudioProjects/ChoreWheelApplication/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Satos/AndroidStudioProjects/ChoreWheelApplication/app/src/main/res/layout-sw720dp-land/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Satos/AndroidStudioProjects/ChoreWheelApplication/app/src/main/res/layout-sw720dp/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Satos/AndroidStudioProjects/ChoreWheelApplication/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Satos/AndroidStudioProjects/ChoreWheelApplication/app/src/main/res/layout/toast_quad_1.xml" value="0.15677083333333333" />
         <entry key="..\:/Users/Satos/AndroidStudioProjects/ChoreWheelApplication/app/src/main/res/layout/wheel_activity_layout.xml" value="0.15677083333333333" />
       </map>
@@ -15,5 +25,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.3333333333333333" />
+      </ProjectState>
+    </option>
   </component>
 </project>
