@@ -25,11 +25,11 @@
         android:id="@+id/ticker"
         android:layout_width="52dp"
         android:layout_height="43dp"
-        android:layout_marginBottom="332dp"
-        app:layout_constraintBottom_toBottomOf="@+id/spinningWheel"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="-18dp"
+        app:layout_constraintBottom_toTopOf="@+id/spinningWheel"
+        app:layout_constraintEnd_toEndOf="@+id/spinningWheel"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toStartOf="@+id/spinningWheel"
         app:srcCompat="@drawable/chore_wheel_ticker" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
