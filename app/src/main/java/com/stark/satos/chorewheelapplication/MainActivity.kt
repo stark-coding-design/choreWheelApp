@@ -60,8 +60,10 @@ class MainActivity : AppCompatActivity() {
             override fun onCLick() {
                 super.onClick()
                 if (!isSpinning) {
-                    spin()
-                    isSpinning = true
+                    throw RuntimeException("Test Crash") // Force a crash
+
+//                    spin()
+//                    isSpinning = true
                 }
             }
 
