@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "817410143568",
+    "project_id": "the-wheel-of-chores",
+    "storage_bucket": "the-wheel-of-chores.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817410143568:android:0ddbd86da35e944e546855",
+        "android_client_info": {
+          "package_name": "com.stark.satos.chorewheelapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817410143568-frat7t4719dplbrj141171p3jtlvkh3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALB0BYvqjAS9jcVY8RvXCiIehu6I4j6R4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817410143568-frat7t4719dplbrj141171p3jtlvkh3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
