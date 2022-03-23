@@ -117,7 +117,7 @@ class MainActivity : AppCompatActivity() {
     companion object {
         private val sectors = arrayOf(
             "To Dust The Picture Frames",
-            " To Put The Away Groceries",
+            "To Put The Away Groceries",
             "To Pick Your Own Chore From The List",
             "To Put Away The Dry Dishes",
             "To Sweep The Porch",
@@ -129,7 +129,7 @@ class MainActivity : AppCompatActivity() {
             "To Take Out The Trash",
             "To Have Your Parent Choose Your Next Chore",
             "To Clean The Windows",
-            " To Clean The Bathrooms",
+            "To Clean The Bathrooms",
             "To Fold Clothes",
             "To Sweep The House",
             "To Wash The Dishes",
