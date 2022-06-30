@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/spinningWheel"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
         android:layout_marginStart="12dp"
         android:layout_marginEnd="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
