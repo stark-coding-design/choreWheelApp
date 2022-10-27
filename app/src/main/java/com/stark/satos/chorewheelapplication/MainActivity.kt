@@ -11,6 +11,10 @@ import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
+import com.google.android.gms.appset.AppSet
+import com.google.android.gms.appset.AppSetIdClient
+import com.google.android.gms.appset.AppSetIdInfo
+import com.google.android.gms.tasks.Task
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
@@ -20,6 +24,20 @@ class MainActivity : AppCompatActivity() {
     private var wheel: ImageView? = null
     @SuppressLint("ClickableViewAccessibility")
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        //retrieve the app set ID asynchronously using the Tasks API in Google Play services
+        val client = AppSet.getClient(applicationContext) as AppSetIdClient
+        val task: Task<AppSetIdInfo> = client.appSetIdInfo as Task<AppSetIdInfo>
+
+        task.addOnSuccessListener {
+            // Determine current scope of app set ID.
+            val scope: Int = it.scope
+
+            // Read app set ID value, which uses version 4 of the
+            // universally unique identifier (UUID) format.
+            val id: String = it.id
+        }
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val layout: ConstraintLayout? = findViewById(R.id.constraint_layout)
